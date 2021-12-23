@@ -21,7 +21,6 @@ jobs:
             - name: "Build dist"
               run: poetry build
 
-            - name: "Publish to Pypi"
             - uses: pypa/gh-action-pypi-publish@release/v1
               with:
                   user: __token__
