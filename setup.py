@@ -18,6 +18,8 @@ setup(
     description="A GUI configuration library for python programs.",
     license="MIT",
     author="ArjixWasTaken",
+    author_email='arjixg53@gmail.com',
+    url='https://github.com/ArjixWasTaken/PyConfigurer',
     packages=find_packages(),
     install_requires=requirements,
     long_description=long_description,
@@ -25,5 +27,7 @@ setup(
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-    ]
+    ],
+    python_requires='>=3.6',
+    keywords=["configuration", "gui"]
 )
