@@ -15,8 +15,7 @@ default_config = {
 
 
 config_template = ConfigTemplate([
-    Token(FieldType.text_input, "user",
-          "Enter your name:", default_config["user"]),
+    Token(FieldType.text_input, "user", "Enter your name:", default_config["user"]),
     Token(FieldType.int_input, "age", "Enter your age:", default_config["age"])
 ])
 config = Configurer(config_template)
