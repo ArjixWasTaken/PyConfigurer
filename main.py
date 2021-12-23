@@ -47,12 +47,12 @@ class Configurer:
             elif token.field_type is FieldType.filepath_input:
                 self.layout.append([sg.Text(token.name)])
                 self.layout.append(
-                    [sg.Input(key=token.key), sg.FileBrowse(initial_folder=token.default_value, key=token.key, )])
+                    [sg.Input(token.default_value, key=token.key), sg.FileBrowse(initial_folder=token.default_value, key=token.key, )])
 
             elif token.field_type is FieldType.path_input:
                 self.layout.append([sg.Text(token.name)])
                 self.layout.append(
-                    [sg.Input(key=token.key), sg.FolderBrowse(initial_folder=token.default_value, key=token.key, )])
+                    [sg.Input(token.default_value, key=token.key), sg.FolderBrowse(initial_folder=token.default_value, key=token.key, )])
 
             if row:
                 self.layout.append(row)
