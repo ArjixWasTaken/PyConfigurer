@@ -3,7 +3,7 @@ name: Publish package
 on:
     push:
         paths:
-            - "pypackage.toml"
+            - "pyproject.toml"
 
 concurrency:
     group: "publish"
