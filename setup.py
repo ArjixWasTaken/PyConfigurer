@@ -14,7 +14,7 @@ except IOError:
 
 setup(
     name="PyConfigurer",
-    version="0.0.1",
+    version="0.0.2",
     description="A GUI configuration library for python programs.",
     license="MIT",
     author="ArjixWasTaken",
