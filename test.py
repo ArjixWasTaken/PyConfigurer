@@ -1,10 +1,3 @@
-# PyConfigurer
-
-A GUI configuration library for python programs.
-
-# Usage
-
-```python
 from main import Configurer, ConfigTemplate, Token, FieldType
 
 
@@ -25,4 +18,3 @@ new_config = config.run()
 
 print("Old config", default_config)
 print("New config", new_config)
-```

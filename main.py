@@ -29,7 +29,7 @@ class Configurer:
         self.template = template
 
         self.layout = []
-        for token in config_template.tokens:
+        for token in self.template.tokens:
             row = []
             if token.field_type in (FieldType.text_input, FieldType.int_input):
                 row.append(sg.Text(token.name))
