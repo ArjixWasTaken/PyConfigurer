@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "PyConfigurer"
+version = "0.1.0"
+description = "A GUI configuration library for python programs."
+
+license = "MIT"
+
+authors = [
+    "ArjixWasTaken"
+]
+
+readme = "README.md"
+
+repository = "https://github.com/ArjixWasTaken/PyConfigurer"
+homepage = "https://github.com/ArjixWasTaken/PyConfigurer"
+
+keywords = ["configuration", "gui"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+packages = [
+    { include = "PyConfigurer" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"  # Compatible python versions must be declared here
+toml = "^0.9"
