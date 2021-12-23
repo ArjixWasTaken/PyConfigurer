@@ -5,7 +5,7 @@ A GUI configuration library for python programs.
 # Usage
 
 ```python
-from main import Configurer, ConfigTemplate, Token, FieldType
+from PyConfigurer import Configurer, ConfigTemplate, Token, FieldType
 
 
 default_config = {
