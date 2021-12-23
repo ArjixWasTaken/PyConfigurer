@@ -1,4 +1,4 @@
-from main import Configurer, ConfigTemplate, Token, FieldType
+from PyConfigurer import Configurer, ConfigTemplate, Token, FieldType
 
 
 default_config = {
